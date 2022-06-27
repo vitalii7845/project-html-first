@@ -1,10 +1,16 @@
+@import 'breakpoints.scss';
+@import 'veriables.scss';
+@import 'common.scss';
 @import 'header.scss';
 @import 'headline.scss';
-@import 'footer.scss';
-@import 'common.scss';
 @import 'about.scss';
 @import 'customers.scss';
 @import 'features.scss';
+@import 'tips.scss';
+@import 'audience.scss';
+@import 'hiring.scss';
+@import 'order.scss';
+@import 'footer.scss';
 
 * {
   box-sizing: border-box;
@@ -17,14 +23,13 @@ html {
 }
 
 .page {
-  width: 1400px;
-  margin: auto;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
+  width: 100%;
 
-.top-section {
-  background-color: #f3c6bd;
-  padding-top: 39px;
+  @include for-large-up {
+    max-width: 1400px;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
 }

@@ -1,0 +1,163 @@
+.audience {
+  min-width: 320px;
+  max-width: 1400px;
+  background-color: #00a1c612;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__subtitle {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+
+    @include for-large-up {
+      margin-top: 108px;
+    }
+  }
+  &__title {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 17px;
+    text-align: center;
+
+    @include for-large-up {
+      font-size: 56px;
+      line-height: 56px;
+      margin-top: 24px;
+    }
+  }
+  &__description {
+    margin: 0;
+    margin-top: 18px;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    display: block;
+
+    @include for-large-up {
+      margin-top: 30px;
+      max-width: 555px;
+    }
+  }
+
+  &__actions {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+
+    @include for-large-up {
+      margin-top: 34px;
+      flex-direction: unset;
+    }
+  }
+
+  &__actions__btn {
+    margin-top: inherit;
+
+    @include for-large-up {
+      margin: 5px;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: auto;
+
+    @include for-large-up {
+      flex-direction: unset;
+      margin-top: 111px;
+      width: auto;
+      height: auto;
+    }
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    width: 262px;
+    height: 300px;
+    background-color: $color-white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 15px;
+    margin-right: 15px;
+
+    @include for-large-up {
+      margin-bottom: 110px;
+      margin-top: 0;
+      width: 262px;
+      height: 300px;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+  }
+
+  &__card:hover {
+    cursor: pointer;
+    background-color: $color-dark-blue;
+    color: $color-white;
+  }
+
+  &__card:first-child {
+    margin-top: 40px;
+
+    @include for-large-up {
+      margin-top: 0;
+    }
+  }
+
+  &__card:last-child {
+    margin-bottom: 50px;
+
+    @include for-large-up {
+      margin-bottom: 110px;
+    }
+  }
+}
+
+.user-card_checked {
+  background-color: $color-dark-blue;
+  color: $color-white;
+}
+
+.user-card__image {
+  width: 138px;
+  height: 195px;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-card__caption {
+  margin: 22px 20px 33px 20px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+
+  @include for-large-up {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
