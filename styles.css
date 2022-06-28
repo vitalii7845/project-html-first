@@ -102,7 +102,7 @@
 @media screen and (min-width: 1400px) {
   .header__button {
     display: block;
-    margin-right: 130px;
+    margin-right: 0px;
   }
 }
 .header__menu-button {
@@ -568,6 +568,8 @@
 }
 @media screen and (min-width: 1400px) {
   .audience__title {
+    width: 555px;
+    height: 112px;
     margin-top: 24px;
     line-height: 56px;
     font-size: 56px;
@@ -1000,20 +1002,20 @@
   margin-right: 10px;
 }
 
-.additional-navigation {
+.footer-navigation {
   display: flex;
   flex-direction: column;
   margin-left: 15px;
   margin-right: 15px;
 }
 @media screen and (min-width: 1400px) {
-  .additional-navigation {
+  .footer-navigation {
     flex-direction: row;
     margin-top: 60px;
     margin-left: auto;
   }
 }
-.additional-navigation__column {
+.footer-navigation__column {
   margin-top: 30px;
   margin-top: 0;
   margin-right: 29px;

@@ -34,6 +34,8 @@
     font-weight: 700;
 
     @include for-large-up {
+      width: 555px;
+      height: 112px;
       margin-top: 24px;
       line-height: 56px;
       font-size: 56px;
