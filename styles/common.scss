@@ -33,12 +33,12 @@
 .buttom_get-started_checked {
   width: 290px;
   height: 48px;
-  background-color: $color-blue-button;
-  color: $color-white;
+  border: none;
+  border-radius: 2px;
   font-size: 18px;
   font-weight: 700;
-  border-radius: 2px;
-  border: none;
+  background-color: $color-blue-button;
+  color: $color-white;
 
   @include for-large-up {
     width: 160px;
@@ -48,12 +48,12 @@
 .button_learn-more_normal {
   width: 290px;
   height: 48px;
-  background-color: $color-white;
-  color: $text-color-dark;
+  border: none;
+  border-radius: 2px;
   font-size: 18px;
   font-weight: 700;
-  border-radius: 2px;
-  border: none;
+  background-color: $color-white;
+  color: $text-color-dark;
 
   @include for-large-up {
     width: 158px;
@@ -74,7 +74,7 @@
 
 .icon-arrow_right {
   display: block;
-  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png);
   width: 7px;
   height: 12px;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png);
 }

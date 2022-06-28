@@ -1,16 +1,16 @@
 .header {
-  height: 64px;
-  width: 100%;
   display: flex;
   align-items: center;
+  width: 100%;
+  height: 64px;
   padding-left: 15px;
   background-color: $color-white;
 
   @include for-large-up {
+    display: flex;
     min-width: 1140px;
     height: 62px;
     margin: auto;
-    display: flex;
     background-color: transparent;
   }
 
@@ -25,10 +25,10 @@
 
   &__menu-button {
     width: 58px;
-    border: none;
-    border-left: 1px solid #00000026;
     height: 100%;
     margin-left: auto;
+    border: none;
+    border-left: 1px solid #00000026;
     background: transparent;
 
     @include for-large-up {
@@ -63,11 +63,11 @@
   }
 
   &__item {
-    color: $color-dark;
-    text-decoration: none;
+    margin-right: 50px;
     line-height: 25px;
     font-size: 18px;
-    margin-right: 50px;
+    text-decoration: none;
+    color: $color-dark;
 
     &:last-child {
       margin-right: 0;
@@ -79,11 +79,11 @@
   }
 
   &__arrow {
-    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
     display: inline-block;
-    height: 5px;
     width: 8px;
+    height: 5px;
     margin-left: 11px;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
   }
 }
 
@@ -103,14 +103,14 @@
   }
 
   &__name {
-    font-size: 20px;
     line-height: 25px;
+    font-size: 20px;
     font-weight: 700;
   }
 
   &__decription {
-    font-size: 18px;
     line-height: 25px;
+    font-size: 18px;
     color: $color-dark;
     opacity: 0.6;
   }
