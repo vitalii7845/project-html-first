@@ -639,9 +639,7 @@
   height: 300px;
   border: none;
   border-radius: 8px;
-  margin-top: 15px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-bottom: 10px;
   background-color: #fff;
 }
 @media screen and (min-width: 1400px) {
@@ -674,11 +672,6 @@
   .audience__card:last-child {
     margin-bottom: 110px;
   }
-}
-
-.user-card_checked {
-  background-color: #3141c5;
-  color: #fff;
 }
 
 .user-card__image {
