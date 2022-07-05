@@ -13,7 +13,7 @@
     max-width: 555px;
   }
 
-  &__illustration {
+  &__image {
     max-width: 200px;
 
     @include for-large-up {
@@ -65,10 +65,11 @@
   }
 
   &__button {
+    width: 100%;
     margin-top: 12px;
 
-    @include for-large-down {
-      width: 100%;
+    @include for-large-up {
+      width: 160px;
     }
 
     @include for-large-up {
