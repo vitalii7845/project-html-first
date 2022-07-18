@@ -1,4 +1,4 @@
-# project-html-first
+# Layout Sample Project
 
 [Site link:](https://vitalii7845.github.io/project-html-first/)
 
